@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_trivia/static/css/main.8015c745.css",
+    "main.js": "/react_trivia/static/js/main.0492cebb.js",
+    "static/js/787.ae0d8d37.chunk.js": "/react_trivia/static/js/787.ae0d8d37.chunk.js",
+    "index.html": "/react_trivia/index.html",
+    "main.8015c745.css.map": "/react_trivia/static/css/main.8015c745.css.map",
+    "main.0492cebb.js.map": "/react_trivia/static/js/main.0492cebb.js.map",
+    "787.ae0d8d37.chunk.js.map": "/react_trivia/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8015c745.css",
+    "static/js/main.0492cebb.js"
+  ]
+}
