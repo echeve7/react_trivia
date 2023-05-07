@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_trivia/static/css/main.aaf247e3.css",
-    "main.js": "/react_trivia/static/js/main.ff65ba01.js",
+    "main.js": "/react_trivia/static/js/main.ce9b4305.js",
     "static/js/787.ae0d8d37.chunk.js": "/react_trivia/static/js/787.ae0d8d37.chunk.js",
     "static/media/ganaste.png": "/react_trivia/static/media/ganaste.e78a3cf90a838cd82192.png",
     "static/media/rocko_mal.png": "/react_trivia/static/media/rocko_mal.29c3e91ba40dc8843175.png",
@@ -9,11 +9,11 @@
     "static/media/rockito_bien.png": "/react_trivia/static/media/rockito_bien.de0f7a417511a9579f54.png",
     "index.html": "/react_trivia/index.html",
     "main.aaf247e3.css.map": "/react_trivia/static/css/main.aaf247e3.css.map",
-    "main.ff65ba01.js.map": "/react_trivia/static/js/main.ff65ba01.js.map",
+    "main.ce9b4305.js.map": "/react_trivia/static/js/main.ce9b4305.js.map",
     "787.ae0d8d37.chunk.js.map": "/react_trivia/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aaf247e3.css",
-    "static/js/main.ff65ba01.js"
+    "static/js/main.ce9b4305.js"
   ]
 }
