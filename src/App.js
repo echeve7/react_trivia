@@ -133,7 +133,7 @@ export default function App() {
         <button onClick={()=> {screenClose(false); cerrarVentana();}} className={startScreen ? "button-start " : `esconder` }><b>Empezar Trivia</b></button>
       </div>
       <div className={startGame ? "terminar-juego display-flex " : "terminar-juego"}>
-        <p>Tu Puntuación es de: {puntuacion}</p>
+        <p>Tu Puntuación es de: {puntuacion} -{puntuacion > 5 ? " !Ganaste¡" : " Perdiste 😞"}</p>
         <img className={puntuacion > 5 ? "icon-final-ganador": "icon-final"} src={puntuacion > 5 ? ganastePng : perdistePng} />
         <button className="button-salir seguir-jugando " onClick={volverAJugar}><b>Volver a jugar</b></button>
         <button className="button-salir " onClick={() => window.location.reload(true)}><b>Salir</b></button>
