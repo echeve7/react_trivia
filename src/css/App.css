@@ -31,7 +31,7 @@ html {
   margin-right: auto;
   margin-left: 0;
   box-sizing: border-box;
-  transition: transform 1s;
+  transition: all 1.5s ease-out;
 }
 .comienza p {
   line-height: 30px;
@@ -55,16 +55,13 @@ html {
 
 .comienzaJuego{
   box-shadow: none;
-  background-color: rgb(76, 146, 252);
-  animation: cerrar-animacion 1s forwards;
+  background-color: rgb(65, 67, 75);
+  transform: translateX(-50%);
+  animation: ocultar 1.5s ease-out forwards;
 }
-@keyframes cerrar-animacion {
-  0% {
-    transform: scaleX(1);
-  }
-  100% {
-    transform: scaleX(0);
-    
+@keyframes ocultar {
+  to {
+    opacity: 0;
   }
 }
 
@@ -166,7 +163,12 @@ html {
   width: 100px;
   height: 100px;
 }
-
+.icon-final-ganador {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 100px;
+  height: 125px;
+}
 .seguir-jugando {
   background-color: rgb(39, 209, 96);
 }
